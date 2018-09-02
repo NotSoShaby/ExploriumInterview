@@ -1,0 +1,31 @@
+version: "3.1"
+services:
+  app:
+    build: ./app
+    depends_on:
+      - db
+    links:
+      - db
+    environment:
+      PYTHONUNBUFFERED: 0
+      PYTHONLOGGER: /tmp/logs/
+      DATAFOLDER: /tmp/data/
+    command: until [ "`/usr/bin/docker inspect -f {{.State.Running}} db`"=="true" ]; do sleep 0.1;done;
+    volumes:
+      # Data folder mount
+      - C:\Users\NotSoShaby\PycharmProjects\ExploriumInterview\data:/tmp/data/
+      # Log folder mount
+      - C:\Users\NotSoShaby\PycharmProjects\ExploriumInterview\logs:/tmp/logs/
+
+  db:
+    healthcheck:
+      test: psql -U postgres
+      interval: 2s
+      timeout: 5s
+      retries: 30
+    image: postgres
+    restart: always
+    user: "root"
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres

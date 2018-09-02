@@ -1,0 +1,99 @@
+INFO:application_logger:Logger initiated
+INFO:application_logger:Initiating app
+INFO:sqlalchemy.engine.base.Engine:select version()
+INFO:sqlalchemy.engine.base.Engine:{}
+INFO:sqlalchemy.engine.base.Engine:select current_schema()
+INFO:sqlalchemy.engine.base.Engine:{}
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+INFO:sqlalchemy.engine.base.Engine:{}
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+INFO:sqlalchemy.engine.base.Engine:{}
+INFO:sqlalchemy.engine.base.Engine:show standard_conforming_strings
+INFO:sqlalchemy.engine.base.Engine:{}
+INFO:sqlalchemy.engine.base.Engine:select relname from pg_class c join pg_namespace n on n.oid=c.relnamespace where pg_catalog.pg_table_is_visible(c.oid) and relname=%(name)s
+INFO:sqlalchemy.engine.base.Engine:{'name': 'tree_sum_table'}
+INFO:sqlalchemy.engine.base.Engine:
+CREATE TABLE tree_sum_table (
+	id SERIAL NOT NULL, 
+	nodes_sum INTEGER, 
+	date_inserted TIMESTAMP WITHOUT TIME ZONE, 
+	PRIMARY KEY (id)
+)
+
+
+INFO:sqlalchemy.engine.base.Engine:{}
+INFO:sqlalchemy.engine.base.Engine:COMMIT
+INFO:application_logger:***************Starting tree: json_test.json***************
+DEBUG:application_logger:Initiating que with json tree from: /tmp/data/json_test.json
+DEBUG:application_logger:Starting calculation on tree
+DEBUG:application_logger:For json tree at: /tmp/data/json_test.json, got: 50 as the sum
+INFO:application_logger:Checking if sum: 50 is already in the db
+INFO:sqlalchemy.engine.base.Engine:
+                    SELECT * FROM tree_sum_table
+                    WHERE nodes_sum=50
+               
+INFO:sqlalchemy.engine.base.Engine:{}
+INFO:application_logger:Adding sum: 50 to the db
+INFO:sqlalchemy.engine.base.Engine:
+                    INSERT INTO tree_sum_table
+                    (nodes_sum, date_inserted) VALUES (50, '2018-09-02 20:18:05')
+               
+INFO:sqlalchemy.engine.base.Engine:{}
+INFO:sqlalchemy.engine.base.Engine:COMMIT
+INFO:application_logger:Sum 50 was added to the db successfully!
+INFO:application_logger:---------------Finished tree json_test.json---------------
+INFO:application_logger:***************Starting tree: test2.json***************
+DEBUG:application_logger:Initiating que with json tree from: /tmp/data/test2.json
+DEBUG:application_logger:Starting calculation on tree
+DEBUG:application_logger:For json tree at: /tmp/data/test2.json, got: 50 as the sum
+INFO:application_logger:Checking if sum: 50 is already in the db
+INFO:sqlalchemy.engine.base.Engine:
+                    SELECT * FROM tree_sum_table
+                    WHERE nodes_sum=50
+               
+INFO:sqlalchemy.engine.base.Engine:{}
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT tree_sum_table.id AS tree_sum_table_id, tree_sum_table.nodes_sum AS tree_sum_table_nodes_sum, tree_sum_table.date_inserted AS tree_sum_table_date_inserted 
+FROM tree_sum_table 
+WHERE tree_sum_table.nodes_sum = %(nodes_sum_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.base.Engine:{'nodes_sum_1': 50, 'param_1': 1}
+DEBUG:application_logger:The sum -50- is already in the system! It was entered at: 2018-09-02 20:18:05
+INFO:application_logger:---------------Finished tree test2.json---------------
+INFO:application_logger:***************Starting tree: test3.json***************
+DEBUG:application_logger:Initiating que with json tree from: /tmp/data/test3.json
+DEBUG:application_logger:Starting calculation on tree
+DEBUG:application_logger:For json tree at: /tmp/data/test3.json, got: 46 as the sum
+INFO:application_logger:Checking if sum: 46 is already in the db
+INFO:sqlalchemy.engine.base.Engine:
+                    SELECT * FROM tree_sum_table
+                    WHERE nodes_sum=46
+               
+INFO:sqlalchemy.engine.base.Engine:{}
+INFO:application_logger:Adding sum: 46 to the db
+INFO:sqlalchemy.engine.base.Engine:
+                    INSERT INTO tree_sum_table
+                    (nodes_sum, date_inserted) VALUES (46, '2018-09-02 20:18:05')
+               
+INFO:sqlalchemy.engine.base.Engine:{}
+INFO:sqlalchemy.engine.base.Engine:COMMIT
+INFO:application_logger:Sum 46 was added to the db successfully!
+INFO:application_logger:---------------Finished tree test3.json---------------
+INFO:application_logger:***************Starting tree: test4.json***************
+DEBUG:application_logger:Initiating que with json tree from: /tmp/data/test4.json
+DEBUG:application_logger:Starting calculation on tree
+DEBUG:application_logger:For json tree at: /tmp/data/test4.json, got: 46 as the sum
+INFO:application_logger:Checking if sum: 46 is already in the db
+INFO:sqlalchemy.engine.base.Engine:
+                    SELECT * FROM tree_sum_table
+                    WHERE nodes_sum=46
+               
+INFO:sqlalchemy.engine.base.Engine:{}
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT tree_sum_table.id AS tree_sum_table_id, tree_sum_table.nodes_sum AS tree_sum_table_nodes_sum, tree_sum_table.date_inserted AS tree_sum_table_date_inserted 
+FROM tree_sum_table 
+WHERE tree_sum_table.nodes_sum = %(nodes_sum_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.base.Engine:{'nodes_sum_1': 46, 'param_1': 1}
+DEBUG:application_logger:The sum -46- is already in the system! It was entered at: 2018-09-02 20:18:05
+INFO:application_logger:---------------Finished tree test4.json---------------
