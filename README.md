@@ -1,4 +1,3 @@
->>>>>>>>>>>>>>>>>>>>>>>>>>>> InterView for Explorium <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
 Quick Guide to operate:
