@@ -68,5 +68,5 @@ if __name__ == '__main__':
         ans = input("Run App? (if no, quit) [y,n]")
         if ans.lower()=="y":
             App().run_app_on_multiple_trees()
-        else:
+        elif ans.lower()=="n":
             exit()
