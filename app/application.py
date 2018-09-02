@@ -64,8 +64,9 @@ class App:
 
 if __name__ == '__main__':
 
-    # wait for db service to be up
-    # TODO - find a dynamic way to find out when the db service is up
-    time.sleep(10)
-    App().run_app_on_multiple_trees()
-
+    while True:
+        ans = input("Run App? (if no, quit) [y,n]")
+        if ans.lower()=="y":
+            App().run_app_on_multiple_trees()
+        else:
+            exit()

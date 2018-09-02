@@ -575,35 +575,266 @@
 2018-09-02 20:09:40,583 - application_logger - INFO - Checking if sum: 46 is already in the db
 2018-09-02 20:09:40,655 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:00:03
 2018-09-02 20:09:40,664 - application_logger - INFO - ---------------Finished tree test4.json---------------
-2018-09-02 20:17:53,948 - application_logger - INFO - Logger initiated
-2018-09-02 20:18:04,022 - application_logger - INFO - Initiating app
-2018-09-02 20:18:05,148 - application_logger - INFO - ***************Starting tree: json_test.json***************
-2018-09-02 20:18:05,163 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/json_test.json
-2018-09-02 20:18:05,184 - application_logger - DEBUG - Starting calculation on tree
-2018-09-02 20:18:05,191 - application_logger - DEBUG - For json tree at: /tmp/data/json_test.json, got: 50 as the sum
-2018-09-02 20:18:05,198 - application_logger - INFO - Checking if sum: 50 is already in the db
-2018-09-02 20:18:05,224 - application_logger - INFO - Adding sum: 50 to the db
-2018-09-02 20:18:05,263 - application_logger - INFO - Sum 50 was added to the db successfully!
-2018-09-02 20:18:05,269 - application_logger - INFO - ---------------Finished tree json_test.json---------------
-2018-09-02 20:18:05,274 - application_logger - INFO - ***************Starting tree: test2.json***************
-2018-09-02 20:18:05,281 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test2.json
-2018-09-02 20:18:05,300 - application_logger - DEBUG - Starting calculation on tree
-2018-09-02 20:18:05,307 - application_logger - DEBUG - For json tree at: /tmp/data/test2.json, got: 50 as the sum
-2018-09-02 20:18:05,315 - application_logger - INFO - Checking if sum: 50 is already in the db
-2018-09-02 20:18:05,366 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:18:05
-2018-09-02 20:18:05,372 - application_logger - INFO - ---------------Finished tree test2.json---------------
-2018-09-02 20:18:05,377 - application_logger - INFO - ***************Starting tree: test3.json***************
-2018-09-02 20:18:05,384 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test3.json
-2018-09-02 20:18:05,403 - application_logger - DEBUG - Starting calculation on tree
-2018-09-02 20:18:05,409 - application_logger - DEBUG - For json tree at: /tmp/data/test3.json, got: 46 as the sum
-2018-09-02 20:18:05,421 - application_logger - INFO - Checking if sum: 46 is already in the db
-2018-09-02 20:18:05,462 - application_logger - INFO - Adding sum: 46 to the db
-2018-09-02 20:18:05,494 - application_logger - INFO - Sum 46 was added to the db successfully!
-2018-09-02 20:18:05,501 - application_logger - INFO - ---------------Finished tree test3.json---------------
-2018-09-02 20:18:05,508 - application_logger - INFO - ***************Starting tree: test4.json***************
-2018-09-02 20:18:05,517 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test4.json
-2018-09-02 20:18:05,539 - application_logger - DEBUG - Starting calculation on tree
-2018-09-02 20:18:05,545 - application_logger - DEBUG - For json tree at: /tmp/data/test4.json, got: 46 as the sum
-2018-09-02 20:18:05,550 - application_logger - INFO - Checking if sum: 46 is already in the db
-2018-09-02 20:18:05,591 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:18:05
-2018-09-02 20:18:05,599 - application_logger - INFO - ---------------Finished tree test4.json---------------
+2018-09-02 20:15:51,578 - application_logger - INFO - Logger initiated
+2018-09-02 20:16:01,622 - application_logger - INFO - Initiating app
+2018-09-02 20:16:02,175 - application_logger - INFO - ***************Starting tree: json_test.json***************
+2018-09-02 20:16:02,184 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/json_test.json
+2018-09-02 20:16:02,203 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 20:16:02,208 - application_logger - DEBUG - For json tree at: /tmp/data/json_test.json, got: 50 as the sum
+2018-09-02 20:16:02,214 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 20:16:02,284 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 20:16:02,291 - application_logger - INFO - ---------------Finished tree json_test.json---------------
+2018-09-02 20:16:02,299 - application_logger - INFO - ***************Starting tree: test2.json***************
+2018-09-02 20:16:02,308 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test2.json
+2018-09-02 20:16:02,329 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 20:16:02,337 - application_logger - DEBUG - For json tree at: /tmp/data/test2.json, got: 50 as the sum
+2018-09-02 20:16:02,346 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 20:16:02,408 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 20:16:02,416 - application_logger - INFO - ---------------Finished tree test2.json---------------
+2018-09-02 20:16:02,424 - application_logger - INFO - ***************Starting tree: test3.json***************
+2018-09-02 20:16:02,432 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test3.json
+2018-09-02 20:16:02,458 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 20:16:02,465 - application_logger - DEBUG - For json tree at: /tmp/data/test3.json, got: 46 as the sum
+2018-09-02 20:16:02,476 - application_logger - INFO - Checking if sum: 46 is already in the db
+2018-09-02 20:16:02,543 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 20:16:02,550 - application_logger - INFO - ---------------Finished tree test3.json---------------
+2018-09-02 20:16:02,558 - application_logger - INFO - ***************Starting tree: test4.json***************
+2018-09-02 20:16:02,568 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test4.json
+2018-09-02 20:16:02,590 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 20:16:02,598 - application_logger - DEBUG - For json tree at: /tmp/data/test4.json, got: 46 as the sum
+2018-09-02 20:16:02,609 - application_logger - INFO - Checking if sum: 46 is already in the db
+2018-09-02 20:16:02,686 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 20:16:02,695 - application_logger - INFO - ---------------Finished tree test4.json---------------
+2018-09-02 20:21:59,597 - application_logger - INFO - Logger initiated
+2018-09-02 20:22:09,678 - application_logger - INFO - Initiating app
+2018-09-02 20:22:10,644 - application_logger - INFO - ***************Starting tree: test1_50.json***************
+2018-09-02 20:22:10,651 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test1_50.json
+2018-09-02 20:22:10,702 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 20:22:10,712 - application_logger - DEBUG - For json tree at: /tmp/data/test1_50.json, got: 50 as the sum
+2018-09-02 20:22:10,718 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 20:22:10,768 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 20:22:10,780 - application_logger - INFO - ---------------Finished tree test1_50.json---------------
+2018-09-02 20:22:10,787 - application_logger - INFO - ***************Starting tree: test2_50.json***************
+2018-09-02 20:22:10,803 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test2_50.json
+2018-09-02 20:22:10,835 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 20:22:10,844 - application_logger - DEBUG - For json tree at: /tmp/data/test2_50.json, got: 50 as the sum
+2018-09-02 20:22:10,851 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 20:22:10,918 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 20:22:10,933 - application_logger - INFO - ---------------Finished tree test2_50.json---------------
+2018-09-02 20:22:10,942 - application_logger - INFO - ***************Starting tree: test3_46.json***************
+2018-09-02 20:22:10,950 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test3_46.json
+2018-09-02 20:22:10,969 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 20:22:10,976 - application_logger - DEBUG - For json tree at: /tmp/data/test3_46.json, got: 46 as the sum
+2018-09-02 20:22:10,983 - application_logger - INFO - Checking if sum: 46 is already in the db
+2018-09-02 20:22:11,061 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 20:22:11,070 - application_logger - INFO - ---------------Finished tree test3_46.json---------------
+2018-09-02 20:22:11,078 - application_logger - INFO - ***************Starting tree: test4_46.json***************
+2018-09-02 20:22:11,086 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test4_46.json
+2018-09-02 20:22:11,107 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 20:22:11,115 - application_logger - DEBUG - For json tree at: /tmp/data/test4_46.json, got: 46 as the sum
+2018-09-02 20:22:11,122 - application_logger - INFO - Checking if sum: 46 is already in the db
+2018-09-02 20:22:11,200 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 20:22:11,208 - application_logger - INFO - ---------------Finished tree test4_46.json---------------
+2018-09-02 20:22:11,215 - application_logger - INFO - ***************Starting tree: test5_90.json***************
+2018-09-02 20:22:11,223 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test5_90.json
+2018-09-02 20:22:11,246 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 20:22:11,255 - application_logger - DEBUG - For json tree at: /tmp/data/test5_90.json, got: 90 as the sum
+2018-09-02 20:22:11,264 - application_logger - INFO - Checking if sum: 90 is already in the db
+2018-09-02 20:22:11,292 - application_logger - INFO - Adding sum: 90 to the db
+2018-09-02 20:22:11,337 - application_logger - INFO - Sum 90 was added to the db successfully!
+2018-09-02 20:22:11,345 - application_logger - INFO - ---------------Finished tree test5_90.json---------------
+2018-09-02 21:02:18,987 - application_logger - INFO - Logger initiated
+2018-09-02 21:02:29,097 - application_logger - INFO - Initiating app
+2018-09-02 21:02:30,238 - application_logger - INFO - ***************Starting tree: test1_50.json***************
+2018-09-02 21:02:30,261 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test1_50.json
+2018-09-02 21:02:30,298 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:02:30,314 - application_logger - DEBUG - For json tree at: /tmp/data/test1_50.json, got: 50 as the sum
+2018-09-02 21:02:30,335 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 21:02:30,467 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 21:02:30,485 - application_logger - INFO - ---------------Finished tree test1_50.json---------------
+2018-09-02 21:02:30,498 - application_logger - INFO - ***************Starting tree: test2_50.json***************
+2018-09-02 21:02:30,503 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test2_50.json
+2018-09-02 21:02:30,534 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:02:30,553 - application_logger - DEBUG - For json tree at: /tmp/data/test2_50.json, got: 50 as the sum
+2018-09-02 21:02:30,557 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 21:02:30,698 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 21:02:30,704 - application_logger - INFO - ---------------Finished tree test2_50.json---------------
+2018-09-02 21:02:30,711 - application_logger - INFO - ***************Starting tree: test3_46.json***************
+2018-09-02 21:02:30,715 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test3_46.json
+2018-09-02 21:02:30,738 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:02:30,744 - application_logger - DEBUG - For json tree at: /tmp/data/test3_46.json, got: 46 as the sum
+2018-09-02 21:02:30,751 - application_logger - INFO - Checking if sum: 46 is already in the db
+2018-09-02 21:02:30,874 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 21:02:30,879 - application_logger - INFO - ---------------Finished tree test3_46.json---------------
+2018-09-02 21:02:30,885 - application_logger - INFO - ***************Starting tree: test4_46.json***************
+2018-09-02 21:02:30,894 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test4_46.json
+2018-09-02 21:02:30,919 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:02:30,926 - application_logger - DEBUG - For json tree at: /tmp/data/test4_46.json, got: 46 as the sum
+2018-09-02 21:02:30,935 - application_logger - INFO - Checking if sum: 46 is already in the db
+2018-09-02 21:02:31,081 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 21:02:31,084 - application_logger - INFO - ---------------Finished tree test4_46.json---------------
+2018-09-02 21:02:31,088 - application_logger - INFO - ***************Starting tree: test5_90.json***************
+2018-09-02 21:02:31,093 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test5_90.json
+2018-09-02 21:02:31,113 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:02:31,118 - application_logger - DEBUG - For json tree at: /tmp/data/test5_90.json, got: 90 as the sum
+2018-09-02 21:02:31,125 - application_logger - INFO - Checking if sum: 90 is already in the db
+2018-09-02 21:02:31,208 - application_logger - DEBUG - The sum -90- is already in the system! It was entered at: 2018-09-02 20:22:11
+2018-09-02 21:02:31,232 - application_logger - INFO - ---------------Finished tree test5_90.json---------------
+2018-09-02 21:03:44,851 - application_logger - INFO - Logger initiated
+2018-09-02 21:03:54,921 - application_logger - INFO - Initiating app
+2018-09-02 21:03:55,935 - application_logger - INFO - ***************Starting tree: test1_50.json***************
+2018-09-02 21:03:55,945 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test1_50.json
+2018-09-02 21:03:55,979 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:03:55,987 - application_logger - DEBUG - For json tree at: /tmp/data/test1_50.json, got: 50 as the sum
+2018-09-02 21:03:55,999 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 21:03:56,103 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 21:03:56,112 - application_logger - INFO - ---------------Finished tree test1_50.json---------------
+2018-09-02 21:03:56,116 - application_logger - INFO - ***************Starting tree: test2_50.json***************
+2018-09-02 21:03:56,135 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test2_50.json
+2018-09-02 21:03:56,171 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:03:56,178 - application_logger - DEBUG - For json tree at: /tmp/data/test2_50.json, got: 50 as the sum
+2018-09-02 21:03:56,185 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 21:03:56,266 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 21:03:56,275 - application_logger - INFO - ---------------Finished tree test2_50.json---------------
+2018-09-02 21:03:56,283 - application_logger - INFO - ***************Starting tree: test3_46.json***************
+2018-09-02 21:03:56,292 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test3_46.json
+2018-09-02 21:03:56,309 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:03:56,315 - application_logger - DEBUG - For json tree at: /tmp/data/test3_46.json, got: 46 as the sum
+2018-09-02 21:03:56,321 - application_logger - INFO - Checking if sum: 46 is already in the db
+2018-09-02 21:03:56,383 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 21:03:56,391 - application_logger - INFO - ---------------Finished tree test3_46.json---------------
+2018-09-02 21:03:56,395 - application_logger - INFO - ***************Starting tree: test4_46.json***************
+2018-09-02 21:03:56,403 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test4_46.json
+2018-09-02 21:03:56,427 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:03:56,440 - application_logger - DEBUG - For json tree at: /tmp/data/test4_46.json, got: 46 as the sum
+2018-09-02 21:03:56,447 - application_logger - INFO - Checking if sum: 46 is already in the db
+2018-09-02 21:03:56,514 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 21:03:56,522 - application_logger - INFO - ---------------Finished tree test4_46.json---------------
+2018-09-02 21:03:56,530 - application_logger - INFO - ***************Starting tree: test5_90.json***************
+2018-09-02 21:03:56,538 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test5_90.json
+2018-09-02 21:03:56,558 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:03:56,566 - application_logger - DEBUG - For json tree at: /tmp/data/test5_90.json, got: 90 as the sum
+2018-09-02 21:03:56,572 - application_logger - INFO - Checking if sum: 90 is already in the db
+2018-09-02 21:03:56,609 - application_logger - DEBUG - The sum -90- is already in the system! It was entered at: 2018-09-02 20:22:11
+2018-09-02 21:03:56,616 - application_logger - INFO - ---------------Finished tree test5_90.json---------------
+2018-09-02 21:06:08,700 - application_logger - INFO - Logger initiated
+2018-09-02 21:08:02,805 - application_logger - INFO - Logger initiated
+2018-09-02 21:08:47,805 - application_logger - INFO - Logger initiated
+2018-09-02 21:08:51,068 - application_logger - INFO - Initiating app
+2018-09-02 21:08:51,795 - application_logger - INFO - ***************Starting tree: test1_50.json***************
+2018-09-02 21:08:51,826 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test1_50.json
+2018-09-02 21:08:51,874 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:08:51,887 - application_logger - DEBUG - For json tree at: /tmp/data/test1_50.json, got: 50 as the sum
+2018-09-02 21:08:51,908 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 21:08:52,050 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 21:08:52,068 - application_logger - INFO - ---------------Finished tree test1_50.json---------------
+2018-09-02 21:08:52,082 - application_logger - INFO - ***************Starting tree: test2_50.json***************
+2018-09-02 21:08:52,099 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test2_50.json
+2018-09-02 21:08:52,144 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:08:52,156 - application_logger - DEBUG - For json tree at: /tmp/data/test2_50.json, got: 50 as the sum
+2018-09-02 21:08:52,181 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 21:08:52,355 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 21:08:52,385 - application_logger - INFO - ---------------Finished tree test2_50.json---------------
+2018-09-02 21:08:52,396 - application_logger - INFO - ***************Starting tree: test3_46.json***************
+2018-09-02 21:08:52,421 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test3_46.json
+2018-09-02 21:08:52,472 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:08:52,503 - application_logger - DEBUG - For json tree at: /tmp/data/test3_46.json, got: 46 as the sum
+2018-09-02 21:08:52,518 - application_logger - INFO - Checking if sum: 46 is already in the db
+2018-09-02 21:08:52,691 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 21:08:52,707 - application_logger - INFO - ---------------Finished tree test3_46.json---------------
+2018-09-02 21:08:52,728 - application_logger - INFO - ***************Starting tree: test4_46.json***************
+2018-09-02 21:08:52,743 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test4_46.json
+2018-09-02 21:08:52,792 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:08:52,804 - application_logger - DEBUG - For json tree at: /tmp/data/test4_46.json, got: 46 as the sum
+2018-09-02 21:08:52,833 - application_logger - INFO - Checking if sum: 46 is already in the db
+2018-09-02 21:08:52,958 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:00:03
+2018-09-02 21:08:52,964 - application_logger - INFO - ---------------Finished tree test4_46.json---------------
+2018-09-02 21:08:52,973 - application_logger - INFO - ***************Starting tree: test5_90.json***************
+2018-09-02 21:08:52,983 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test5_90.json
+2018-09-02 21:08:53,006 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:08:53,015 - application_logger - DEBUG - For json tree at: /tmp/data/test5_90.json, got: 90 as the sum
+2018-09-02 21:08:53,034 - application_logger - INFO - Checking if sum: 90 is already in the db
+2018-09-02 21:08:53,126 - application_logger - DEBUG - The sum -90- is already in the system! It was entered at: 2018-09-02 20:22:11
+2018-09-02 21:08:53,140 - application_logger - INFO - ---------------Finished tree test5_90.json---------------
+2018-09-02 21:32:01,039 - application_logger - INFO - Logger initiated
+2018-09-02 21:32:15,062 - application_logger - INFO - Logger initiated
+2018-09-02 21:32:16,461 - application_logger - INFO - Initiating app
+2018-09-02 21:32:17,016 - application_logger - INFO - ***************Starting tree: test1_50.json***************
+2018-09-02 21:32:17,033 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test1_50.json
+2018-09-02 21:32:17,059 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:32:17,069 - application_logger - DEBUG - For json tree at: /tmp/data/test1_50.json, got: 50 as the sum
+2018-09-02 21:32:17,076 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 21:32:17,138 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:18:05
+2018-09-02 21:32:17,146 - application_logger - INFO - ---------------Finished tree test1_50.json---------------
+2018-09-02 21:32:17,154 - application_logger - INFO - ***************Starting tree: test2_50.json***************
+2018-09-02 21:32:17,162 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test2_50.json
+2018-09-02 21:32:17,179 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:32:17,187 - application_logger - DEBUG - For json tree at: /tmp/data/test2_50.json, got: 50 as the sum
+2018-09-02 21:32:17,194 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 21:32:17,250 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:18:05
+2018-09-02 21:32:17,257 - application_logger - INFO - ---------------Finished tree test2_50.json---------------
+2018-09-02 21:32:54,135 - application_logger - INFO - Initiating app
+2018-09-02 21:32:54,285 - application_logger - INFO - ***************Starting tree: test1_50.json***************
+2018-09-02 21:32:54,293 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test1_50.json
+2018-09-02 21:32:54,332 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:32:54,338 - application_logger - DEBUG - For json tree at: /tmp/data/test1_50.json, got: 50 as the sum
+2018-09-02 21:32:54,346 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 21:32:54,434 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:18:05
+2018-09-02 21:32:54,444 - application_logger - INFO - ---------------Finished tree test1_50.json---------------
+2018-09-02 21:32:54,454 - application_logger - INFO - ***************Starting tree: test2_50.json***************
+2018-09-02 21:32:54,462 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test2_50.json
+2018-09-02 21:32:54,507 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:32:54,517 - application_logger - DEBUG - For json tree at: /tmp/data/test2_50.json, got: 50 as the sum
+2018-09-02 21:32:54,538 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 21:32:54,657 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:18:05
+2018-09-02 21:32:54,670 - application_logger - INFO - ---------------Finished tree test2_50.json---------------
+2018-09-02 21:32:54,679 - application_logger - INFO - ***************Starting tree: test6_89.json***************
+2018-09-02 21:32:54,696 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test6_89.json
+2018-09-02 21:32:54,729 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:32:54,741 - application_logger - DEBUG - For json tree at: /tmp/data/test6_89.json, got: 89 as the sum
+2018-09-02 21:32:54,753 - application_logger - INFO - Checking if sum: 89 is already in the db
+2018-09-02 21:32:54,855 - application_logger - DEBUG - The sum -89- is already in the system! It was entered at: 2018-09-02 21:30:32
+2018-09-02 21:32:54,864 - application_logger - INFO - ---------------Finished tree test6_89.json---------------
+2018-09-02 21:33:13,953 - application_logger - INFO - Initiating app
+2018-09-02 21:33:14,197 - application_logger - INFO - ***************Starting tree: test1_50.json***************
+2018-09-02 21:33:14,225 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test1_50.json
+2018-09-02 21:33:14,268 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:33:14,281 - application_logger - DEBUG - For json tree at: /tmp/data/test1_50.json, got: 50 as the sum
+2018-09-02 21:33:14,306 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 21:33:14,486 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:18:05
+2018-09-02 21:33:14,509 - application_logger - INFO - ---------------Finished tree test1_50.json---------------
+2018-09-02 21:33:14,534 - application_logger - INFO - ***************Starting tree: test2_50.json***************
+2018-09-02 21:33:14,550 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test2_50.json
+2018-09-02 21:33:14,596 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:33:14,603 - application_logger - DEBUG - For json tree at: /tmp/data/test2_50.json, got: 50 as the sum
+2018-09-02 21:33:14,616 - application_logger - INFO - Checking if sum: 50 is already in the db
+2018-09-02 21:33:14,815 - application_logger - DEBUG - The sum -50- is already in the system! It was entered at: 2018-09-02 20:18:05
+2018-09-02 21:33:14,823 - application_logger - INFO - ---------------Finished tree test2_50.json---------------
+2018-09-02 21:33:14,834 - application_logger - INFO - ***************Starting tree: test3_46.json***************
+2018-09-02 21:33:14,850 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test3_46.json
+2018-09-02 21:33:14,890 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:33:14,922 - application_logger - DEBUG - For json tree at: /tmp/data/test3_46.json, got: 46 as the sum
+2018-09-02 21:33:14,938 - application_logger - INFO - Checking if sum: 46 is already in the db
+2018-09-02 21:33:15,131 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:18:05
+2018-09-02 21:33:15,148 - application_logger - INFO - ---------------Finished tree test3_46.json---------------
+2018-09-02 21:33:15,171 - application_logger - INFO - ***************Starting tree: test4_46.json***************
+2018-09-02 21:33:15,205 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test4_46.json
+2018-09-02 21:33:15,264 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:33:15,281 - application_logger - DEBUG - For json tree at: /tmp/data/test4_46.json, got: 46 as the sum
+2018-09-02 21:33:15,302 - application_logger - INFO - Checking if sum: 46 is already in the db
+2018-09-02 21:33:15,515 - application_logger - DEBUG - The sum -46- is already in the system! It was entered at: 2018-09-02 20:18:05
+2018-09-02 21:33:15,538 - application_logger - INFO - ---------------Finished tree test4_46.json---------------
+2018-09-02 21:33:15,564 - application_logger - INFO - ***************Starting tree: test5_90.json***************
+2018-09-02 21:33:15,581 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test5_90.json
+2018-09-02 21:33:15,627 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:33:15,650 - application_logger - DEBUG - For json tree at: /tmp/data/test5_90.json, got: 90 as the sum
+2018-09-02 21:33:15,668 - application_logger - INFO - Checking if sum: 90 is already in the db
+2018-09-02 21:33:15,854 - application_logger - DEBUG - The sum -90- is already in the system! It was entered at: 2018-09-02 21:26:33
+2018-09-02 21:33:15,861 - application_logger - INFO - ---------------Finished tree test5_90.json---------------
+2018-09-02 21:33:15,874 - application_logger - INFO - ***************Starting tree: test6_89.json***************
+2018-09-02 21:33:15,918 - application_logger - DEBUG - Initiating que with json tree from: /tmp/data/test6_89.json
+2018-09-02 21:33:16,007 - application_logger - DEBUG - Starting calculation on tree
+2018-09-02 21:33:16,017 - application_logger - DEBUG - For json tree at: /tmp/data/test6_89.json, got: 89 as the sum
+2018-09-02 21:33:16,050 - application_logger - INFO - Checking if sum: 89 is already in the db
+2018-09-02 21:33:16,245 - application_logger - DEBUG - The sum -89- is already in the system! It was entered at: 2018-09-02 21:30:32
+2018-09-02 21:33:16,254 - application_logger - INFO - ---------------Finished tree test6_89.json---------------

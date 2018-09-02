@@ -2,6 +2,8 @@ version: "3.1"
 services:
   app:
     build: ./app
+    stdin_open: true
+    tty: true
     depends_on:
       - db
     links:
@@ -13,9 +15,9 @@ services:
     command: until [ "`/usr/bin/docker inspect -f {{.State.Running}} db`"=="true" ]; do sleep 0.1;done;
     volumes:
       # Data folder mount
-      - C:\Users\NotSoShaby\PycharmProjects\ExploriumInterview\data:/tmp/data/
+      - C:\Users\NotSoShaby\Desktop\ExploriumInterview\data:/tmp/data/
       # Log folder mount
-      - C:\Users\NotSoShaby\PycharmProjects\ExploriumInterview\logs:/tmp/logs/
+      - C:\Users\NotSoShaby\Desktop\ExploriumInterview\logs:/tmp/logs/
 
   db:
     healthcheck:
